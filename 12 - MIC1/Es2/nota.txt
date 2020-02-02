@@ -1,0 +1,2 @@
+Primo esempio : IADD modificata mettendo - al posto di + (funge da isub)
+Secondo esempio : Valori di a e b non vengono prelevati dallo stack. in cima viene messo il risultato (0x56 - 0x55) che è 1.

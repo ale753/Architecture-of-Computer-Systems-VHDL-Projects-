@@ -1,0 +1,38 @@
+NET "LED_out<6>" LOC = "L18"; # Bank = 1, Pin name = IO_L10P_1, Type = I/O, Sch name = CA
+NET "LED_out<5>" LOC = "F18"; # Bank = 1, Pin name = IO_L19P_1, Type = I/O, Sch name = CB
+NET "LED_out<4>" LOC = "D17"; # Bank = 1, Pin name = IO_L23P_1/HDC, Type = DUAL, Sch name = CC
+NET "LED_out<3>" LOC = "D16"; # Bank = 1, Pin name = IO_L23N_1/LDC0, Type = DUAL, Sch name = CD
+NET "LED_out<2>" LOC = "G14"; # Bank = 1, Pin name = IO_L20P_1, Type = I/O, Sch name = CE
+NET "LED_out<1>" LOC = "J17"; # Bank = 1, Pin name = IO_L13P_1/A6/RHCLK4/IRDY1, Type = RHCLK/DUAL, Sch name = CF
+NET "LED_out<0>" LOC = "H14"; # Bank = 1, Pin name = IO_L17P_1, Type = I/O, Sch name = CG
+#!!!!!NON SERVE!!!!! NET "dp"     LOC = "C17"; # Bank = 1, Pin name = IO_L24N_1/LDC2, Type = DUAL, Sch name = DP
+NET "clock_50Mhz"   LOC = "B8"; # Bank = 0, Pin name = IP_L13P_0/GCLK8, Type = GCLK, Sch name = GCLK0
+NET "Anode_Activate<0>" LOC = "F17"; # Bank = 1, Pin name = IO_L19N_1, Type = I/O, Sch name = AN0
+NET "Anode_Activate<1>" LOC = "H17"; # Bank = 1, Pin name = IO_L16N_1/A0, Type = DUAL, Sch name = AN1
+NET "Anode_Activate<2>" LOC = "C18"; # Bank = 1, Pin name = IO_L24P_1/LDC1, Type = DUAL, Sch name = AN2
+NET "Anode_Activate<3>" LOC = "F15"; # Bank = 1, Pin name = IO_L21P_1, Type = I/O, Sch name = AN3
+
+
+NET "SW<0>"       LOC = "G18";   # Sch name = SW0
+NET "SW<1>"       LOC = "H18";   # Sch name = SW1
+NET "SW<2>"       LOC = "K18";   # Sch name = SW2
+NET "SW<3>"       LOC = "K17";   # Sch name = SW3
+#NET "EN1<0>"			LOC = "L14";
+#NET "EN1<1>"			LOC = "L13";
+#NET "EN1<2>"			LOC = "N17";
+#NET "EN1<3>"			LOC = "R17";
+
+
+NET "Load" LOC = "B18"; 
+NET "reset"  LOC = "D18";
+#NET "EN1<2>"  LOC = "E18";
+#NET "EN1<3>"  LOC = "H13";
+
+NET "LED<0>" LOC = "J14";
+NET "LED<1>" LOC = "J15";
+NET "LED<2>" LOC = "K15";
+NET "LED<3>" LOC = "K14";
+NET "LED<4>" LOC = "E16";
+NET "LED<5>" LOC = "P16";
+NET "LED<6>" LOC = "E4";
+NET "LED<7>" LOC = "P4";

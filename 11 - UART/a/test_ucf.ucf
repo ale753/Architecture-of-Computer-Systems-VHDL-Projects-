@@ -1,0 +1,34 @@
+##Leds
+
+NET "dataout<0>"  LOC = "J14"; # Bank = 1, Pin name = IO_L14N_1/A3/RHCLK7, Type = RHCLK/DUAL, Sch name = JD10/LD0
+NET "dataout<1>"  LOC = "J15"; # Bank = 1, Pin name = IO_L14P_1/A4/RHCLK6, Type = RHCLK/DUAL, Sch name = JD9/LD1
+NET "dataout<2>"  LOC = "K15"; # Bank = 1, Pin name = IO_L12P_1/A8/RHCLK2, Type = RHCLK/DUAL, Sch name = JD8/LD2
+NET "dataout<3>"  LOC = "K14"; # Bank = 1, Pin name = IO_L12N_1/A7/RHCLK3/TRDY1, Type = RHCLK/DUAL, Sch name = JD7/LD3
+NET "dataout<4>" LOC = "E16"; # Bank = 1, Pin name = N.C., Type = N.C., Sch name = LD4? other than s3e500
+NET "dataout<5>" LOC = "P16"; # Bank = 1, Pin name = N.C., Type = N.C., Sch name = LD5? other than s3e500
+NET "dataout<6>" LOC = "E4";  # Bank = 3, Pin name = N.C., Type = N.C., Sch name = LD6? other than s3e500
+NET "dataout<7>" LOC = "P4";  # Bank = 3, Pin name = N.C., Type = N.C., Sch name = LD7? other than s3e500
+
+NET "clock_50MHz"   LOC = "B8"; # Bank = 0, Pin name = IP_L13P_0/GCLK8, Type = GCLK, Sch name = GCLK0
+
+
+##Switch
+NET "datain<0>"       LOC = "G18";   # Sch name = SW0
+NET "datain<1>"       LOC = "H18";   # Sch name = SW1
+NET "datain<2>"       LOC = "K18";   # Sch name = SW2
+NET "datain<3>"       LOC = "K17";   # Sch name = SW3
+NET "datain<4>"       LOC = "L14";   # Sch name = SW4
+NET "datain<5>"       LOC = "L13";   # Sch name = SW5
+NET "datain<6>"       LOC = "N17";   # Sch name = SW6
+NET "datain<7>"       LOC = "R17";   # Sch name = SW7
+
+## Buttons
+#
+NET "reset" LOC = "B18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN0
+
+
+## 12 pin connectors
+#NET "TxD1" LOC = "L15"; # Bank = 1, Pin name = IO_L09N_1/A11, Type = DUAL, Sch name = JA1
+
+#NET "RxD1" LOC = "M13"; # Bank = 1, Pin name = IO_L05N_1/VREF_1, Type = VREF, Sch name = JB1
+

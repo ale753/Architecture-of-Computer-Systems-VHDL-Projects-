@@ -1,0 +1,20 @@
+
+  .main
+  .var
+  a
+  b
+  .endvar
+BIPUSH   0x56
+ISTORE   a                    
+BIPUSH   0x56
+ISTORE   b 
+
+ILOAD    a                   
+ILOAD    b                     
+IADD                            
+ISTORE   b  
+
+
+
+  .endmethod
+
