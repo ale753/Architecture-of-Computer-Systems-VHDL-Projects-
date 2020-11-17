@@ -27,8 +27,6 @@ Projects :
 
 Please rate this repo if you find it useful
 
-Post Scriptum
-
 For the implementation of the Bin2Bcd converter refer to : https://stackoverflow.com/questions/39548841/16bit-to-bcd-conversion
 
 
